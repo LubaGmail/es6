@@ -1,5 +1,6 @@
 //console.log("stack: push, pop, peek, length");
-
+// node stack.js
+//
 let letters = [];
 let word = 'racecar';
 let rword = '';
@@ -9,7 +10,7 @@ for (let i=0; i<word.length; i++) {
 }
 
 for (let i=0; i<word.length; i++) {
-    rword += letters.pop()
+    rword += letters.pop();
 }
 
 if (word === rword) {
